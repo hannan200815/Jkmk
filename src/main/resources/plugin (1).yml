@@ -1,0 +1,18 @@
+name: BlissGems
+version: '4.2.0'
+main: dev.xoperr.blissgems.BlissGems
+api-version: '1.21'
+description: Bliss SMP Gem System
+author: magicc
+website: https://xoperr.dev
+
+commands:
+  bliss:
+    description: Main BlissGems command
+    usage: /<command> [subcommand]
+    aliases: [gems, bg]
+
+permissions:
+  blissgems.admin:
+    description: Admin commands (give, reload)
+    default: op
